@@ -1,0 +1,31 @@
+1. Mathematics and NumberTheory
+    Level 1: Basic (The Foundation)
+       1. Primality: Check if $N$ is prime in $O(\sqrt{N})$.
+       2. All_Divisors: Print all divisors of $N$ in $O(\sqrt{N})$.
+       3. Sieve_of_Eratosthenes: Find all primes up to $N$.
+       4. GCD_LCM: Implement the Euclidean algorithm.
+       5. Palindrome_Number: Reverse an integer without using strings (to avoid extra space).
+    Level 2: Intermediate (Pattern Recognition)
+       1. Trailing Zeroes in Factorial: How many zeroes at the end of $N!$? (Hint: Count factors of 5).
+       2. Count Primes in Range: Use Sieve to answer multiple queries efficiently.
+       3. Prime Factorization: Find all prime factors of $N$ using a precomputed Sieve.
+       4. Binary Exponentiation: Implement pow(x, n) in $O(\log n)$.
+       5. Modular Inverse: Find $x$ such that $(a \times x) \% m = 1$.
+       6. Excel Column Title: Convert column number to title (Base-26 logic).
+       7. Square Root (Integral): Find $\lfloor\sqrt{x}\rfloor$ without using sqrt() (Binary Search on math).
+    Level 3: Advanced (Mathematical Strategy)
+       1. Segmented Sieve: Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
+       2. Nth Fibonacci (Log N): Use Matrix Exponentiation to find huge Fibonacci numbers.
+       3. Chinese Remainder Theorem: Solving a system of simultaneous congruences.
+       4. Common Divisors of Two Numbers: Find the count of numbers that divide both $A$ and $B$.
+       5. Power Set / Subsets: Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
+       6. Pigeonhole Principle Problems: E.g., "Find a subarray whose sum is divisible by $N$."
+       7. Catalan Numbers: Used in counting BSTs or valid bracket sequences.
+       8. Lucas Theorem: Calculating $^nC_r \% p$ when $p$ is a small prime.
+
+2. Searching
+3. Sorting
+4. Linked List
+5. Two Pointers
+6. Sliding Window
+7. Bit Manipulation
