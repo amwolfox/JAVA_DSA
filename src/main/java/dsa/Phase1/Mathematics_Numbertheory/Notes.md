@@ -51,32 +51,36 @@ case where it can be used
 
 ### Level: Basic (The Foundation)
 
-1. **Primality_Test:** Check if $N$ is prime in $O(\sqrt{N})$.
-2. **All_Divisors:** Print all divisors of $N$ in $O(\sqrt{N})$.
-3. **Sieve_of_Eratosthenes:** Find all primes up to $N$.
-4. **GCD_LCM:** Implement the Euclidean algorithm.
-5. **Palindrome_Number:** Reverse an integer without using strings (to avoid extra space).
+- [x] **1. Primality_Test:** Check if $N$ is prime in $O(\sqrt{N})$.
+
+- [x] **2. All_Divisors:** Print all divisors of $N$ in $O(\sqrt{N})$.
+
+- [x] **3. Sieve_of_Eratosthenes:** Find all primes up to $N$.
+- [x] **4. GCD_LCM:** Implement the Euclidean algorithm.
+- [x] **5. Palindrome_Number:** Reverse an integer without using strings (to avoid extra space).
 
 ### Level: Intermediate (Pattern Recognition)
 
-6. **Trailing_Zeroes_in_Factorial:** How many zeroes at the end of $N!$? (Hint: Count factors of 5).
-7. **Count_Primes_in_Range:** Use Sieve to answer multiple queries efficiently.
-8. **Prime_Factorization:** Find all prime factors of $N$ using a precomputed Sieve.
-9. **Binary_Exponentiation:** Implement `pow(x, n)` in $O(\log n)$.
-10. **Modular_Inverse:** Find $x$ such that $(a \times x) \% m = 1$.
-11. **Excel_Column_Title:** Convert column number to title (Base-26 logic).
-12. **Square_Root_Integral:** Find $\lfloor\sqrt{x}\rfloor$ without using `sqrt()` (Binary Search on math).
-13. **Factorial_of_a_Large_Number:** Calculate the factorial of a large number.
+- [x] **6. Trailing_Zeroes_in_Factorial:** How many zeroes at the end of $N!$? (Hint: Count factors of 5).
+- [x] **7. Count_Primes_in_Range:** Use Sieve to answer multiple queries efficiently.
+- [x] **8. Prime_Factorization:** Find all prime factors of $N$ using a precomputed Sieve.
+- [x] **9. Binary_Exponentiation:** Implement `pow(x, n)` in $O(\log n)$.
+- [x] **10. Modular_Inverse:** Find $x$ such that $(a \times x) \% m = 1$.
+- [x] **11. Excel_Column_Title:** Convert column number to title (Base-26 logic).
+- [x] **12. Square_Root_Integral:** Find $\lfloor\sqrt{x}\rfloor$ without using `sqrt()` (Binary Search on math).
+- [x] **13. Factorial_of_a_Large_Number:** Calculate the factorial of a large number.
 
 ### Level: Advanced (Mathematical Strategy)
 
-14. **Segmented_Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
-15. **Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
-16. **Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
-17. **Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
-18. **Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
-19. **Pigeonhole Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
-20. **Catalan Numbers:** Used in counting BSTs or valid bracket sequences.
-21. **Lucas Theorem:** Calculating $^nC_r \% p$ when $p$ is a small prime.
+- [x] **14. Segmented_Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
+
+- [ ] **15. Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
+
+- [ ] **16. Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
+- [ ] **17. Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
+- [ ] **18. Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
+- [ ] **19. Pigeonhole Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
+- [ ] **20. Catalan Numbers:** Used in counting BSTs or valid bracket sequences.
+- [ ] **21. Lucas Theorem:** Calculating $^nC_r \% p$ when $p$ is a small prime.
 
 ---
