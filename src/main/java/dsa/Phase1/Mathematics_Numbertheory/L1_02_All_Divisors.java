@@ -2,7 +2,7 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.*;
 
-public class L1_2_All_Divisors {
+public class L1_02_All_Divisors {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number to get all divisors::");

@@ -2,7 +2,7 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.*;
 
-public class L1_3_Sieve_of_Eratosthenes {
+public class L1_03_Sieve_of_Eratosthenes {
     public static void main(String[] args) {
         int n = 50;
         boolean[] primes = sieve(n);
