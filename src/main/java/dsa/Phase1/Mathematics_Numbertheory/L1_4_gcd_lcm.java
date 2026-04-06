@@ -1,6 +1,6 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class L1_gcd_lcm {
+public class L1_4_gcd_lcm {
     public static void main(String[] args) {
         long a = 48, b = 18;
         System.out.println("GCD: " + getGCD(a, b)); // Output: 6

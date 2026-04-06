@@ -52,9 +52,7 @@ case where it can be used
 ### Level: Basic (The Foundation)
 
 - [x] **1. Primality_Test:** Check if $N$ is prime in $O(\sqrt{N})$.
-
 - [x] **2. All_Divisors:** Print all divisors of $N$ in $O(\sqrt{N})$.
-
 - [x] **3. Sieve_of_Eratosthenes:** Find all primes up to $N$.
 - [x] **4. GCD_LCM:** Implement the Euclidean algorithm.
 - [x] **5. Palindrome_Number:** Reverse an integer without using strings (to avoid extra space).
@@ -73,9 +71,7 @@ case where it can be used
 ### Level: Advanced (Mathematical Strategy)
 
 - [x] **14. Segmented_Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
-
-- [ ] **15. Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
-
+- [ ] **15. Nth_Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
 - [ ] **16. Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
 - [ ] **17. Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
 - [ ] **18. Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).

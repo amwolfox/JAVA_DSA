@@ -1,6 +1,6 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class L2_Modular_Inverse {
+public class L2_10_Modular_Inverse {
     // A common large prime used in competitive programming
     private static final long MOD = 1000000007;
 

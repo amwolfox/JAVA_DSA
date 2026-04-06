@@ -5,3 +5,4 @@
 - [ ] Two Pointers
 - [ ] Sliding Window
 - [ ] Bit Manipulation
+- so lets start with topic. Explain me the concepts in deep stress and list out top 20 Interview question as DSA

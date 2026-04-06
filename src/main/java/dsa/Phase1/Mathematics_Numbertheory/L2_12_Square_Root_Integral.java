@@ -1,8 +1,8 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class L2_Square_Root_Integral {
+public class L2_12_Square_Root_Integral {
     public static void main(String[] args) {
-        L2_Square_Root_Integral sol = new L2_Square_Root_Integral();
+        L2_12_Square_Root_Integral sol = new L2_12_Square_Root_Integral();
         System.out.println(sol.mySqrt(8));  // Output: 2
         System.out.println(sol.mySqrt(16)); // Output: 4
     }

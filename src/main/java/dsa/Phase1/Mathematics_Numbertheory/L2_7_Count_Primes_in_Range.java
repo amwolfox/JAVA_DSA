@@ -2,7 +2,7 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.*;
 
-public class L2_Count_Primes_in_Range {
+public class L2_7_Count_Primes_in_Range {
     // Define the maximum limit based on problem constraints (e.g., 10^6)
     private static final int MAX = 1000000;
     private static int[] prefixSum = new int[MAX + 1];

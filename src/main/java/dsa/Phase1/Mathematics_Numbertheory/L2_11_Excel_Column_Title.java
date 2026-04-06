@@ -1,8 +1,8 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class L2_Excel_Column_Title {
+public class L2_11_Excel_Column_Title {
     public static void main(String[] args) {
-        L2_Excel_Column_Title sol = new L2_Excel_Column_Title();
+        L2_11_Excel_Column_Title sol = new L2_11_Excel_Column_Title();
         System.out.println(sol.convertToTitle(1));   // "A"
         System.out.println(sol.convertToTitle(28));  // "AB"
         System.out.println(sol.convertToTitle(701)); // "ZY"
