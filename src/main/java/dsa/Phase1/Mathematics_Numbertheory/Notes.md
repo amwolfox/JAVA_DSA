@@ -59,23 +59,24 @@ case where it can be used
 
 ### Level: Intermediate (Pattern Recognition)
 
-6. **Trailing Zeroes in Factorial:** How many zeroes at the end of $N!$? (Hint: Count factors of 5).
-7. **Count Primes in Range:** Use Sieve to answer multiple queries efficiently.
-8. **Prime Factorization:** Find all prime factors of $N$ using a precomputed Sieve.
-9. **Binary Exponentiation:** Implement `pow(x, n)` in $O(\log n)$.
-10. **Modular Inverse:** Find $x$ such that $(a \times x) \% m = 1$.
-11. **Excel Column Title:** Convert column number to title (Base-26 logic).
-12. **Square Root (Integral):** Find $\lfloor\sqrt{x}\rfloor$ without using `sqrt()` (Binary Search on math).
+6. **Trailing_Zeroes_in_Factorial:** How many zeroes at the end of $N!$? (Hint: Count factors of 5).
+7. **Count_Primes_in_Range:** Use Sieve to answer multiple queries efficiently.
+8. **Prime_Factorization:** Find all prime factors of $N$ using a precomputed Sieve.
+9. **Binary_Exponentiation:** Implement `pow(x, n)` in $O(\log n)$.
+10. **Modular_Inverse:** Find $x$ such that $(a \times x) \% m = 1$.
+11. **Excel_Column_Title:** Convert column number to title (Base-26 logic).
+12. **Square_Root_Integral:** Find $\lfloor\sqrt{x}\rfloor$ without using `sqrt()` (Binary Search on math).
+13. **Factorial_of_a_Large_Number:** Calculate the factorial of a large number.
 
 ### Level: Advanced (Mathematical Strategy)
 
-13. **Segmented Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
-14. **Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
-15. **Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
-16. **Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
-17. **Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
-18. **Pigeonhole Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
-19. **Catalan Numbers:** Used in counting BSTs or valid bracket sequences.
-20. **Lucas Theorem:** Calculating $^nC_r \% p$ when $p$ is a small prime.
+14. **Segmented Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
+15. **Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
+16. **Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
+17. **Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
+18. **Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
+19. **Pigeonhole Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
+20. **Catalan Numbers:** Used in counting BSTs or valid bracket sequences.
+21. **Lucas Theorem:** Calculating $^nC_r \% p$ when $p$ is a small prime.
 
 ---
