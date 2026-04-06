@@ -2,7 +2,7 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.Scanner;
 
-public class Primality_Test {
+public class L1_Primality_Test {
 
     /**
      * Optimized Primality Test using Trial Division and 6k ± 1 Optimization.

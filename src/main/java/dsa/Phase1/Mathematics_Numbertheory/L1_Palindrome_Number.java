@@ -1,6 +1,6 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class Palindrome_Number {
+public class L1_Palindrome_Number {
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));  // true
         System.out.println(isPalindrome(-121)); // false

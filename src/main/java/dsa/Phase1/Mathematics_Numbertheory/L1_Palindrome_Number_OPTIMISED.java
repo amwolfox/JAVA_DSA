@@ -1,6 +1,6 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class Palindrome_Number_OPTIMISED {
+public class L1_Palindrome_Number_OPTIMISED {
     public static void main(String[] args) {
         int n = 1221;
         System.out.println("Is " + n + " a Palindrome: " + isPalindrome(n));

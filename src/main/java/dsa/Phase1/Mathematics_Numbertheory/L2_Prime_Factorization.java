@@ -2,7 +2,7 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.*;
 
-public class Prime_Factorization {
+public class L2_Prime_Factorization {
     private static final int MAX = 1000001;
     private static int[] spf = new int[MAX];
 

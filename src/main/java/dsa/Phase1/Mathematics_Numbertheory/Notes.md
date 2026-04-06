@@ -70,7 +70,7 @@ case where it can be used
 
 ### Level: Advanced (Mathematical Strategy)
 
-14. **Segmented Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
+14. **Segmented_Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
 15. **Nth Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
 16. **Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
 17. **Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.

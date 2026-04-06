@@ -2,9 +2,9 @@ package dsa.Phase1.Mathematics_Numbertheory;
 
 import java.util.*;
 
-public class Factorial_of_a_Large_Number {
+public class L2_Factorial_of_a_Large_Number {
     public static void main(String[] args) {
-        Factorial_of_a_Large_Number sol = new Factorial_of_a_Large_Number();
+        L2_Factorial_of_a_Large_Number sol = new L2_Factorial_of_a_Large_Number();
         System.out.println("100! = " + sol.factorial(100));
     }
 

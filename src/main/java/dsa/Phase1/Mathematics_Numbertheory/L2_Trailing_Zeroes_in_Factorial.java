@@ -1,6 +1,6 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class Trailing_Zeroes_in_Factorial {
+public class L2_Trailing_Zeroes_in_Factorial {
     public static void main(String[] args) {
         System.out.println(trailingZeroes(25)); // Output: 6
     }

@@ -1,8 +1,8 @@
 package dsa.Phase1.Mathematics_Numbertheory;
 
-public class Binary_Exponentiation {
+public class L2_Binary_Exponentiation {
     public static void main(String[] args) {
-        Binary_Exponentiation sol = new Binary_Exponentiation();
+        L2_Binary_Exponentiation sol = new L2_Binary_Exponentiation();
         System.out.println(sol.myPow(2.0, 10)); // 1024.0
     }
 
