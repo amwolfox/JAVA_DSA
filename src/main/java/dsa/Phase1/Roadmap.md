@@ -1,8 +1,8 @@
-- [ ] Mathematics and NumberTheory
+- [x] Mathematics and NumberTheory
 - [ ] Searching
 - [ ] Sorting
 - [ ] Linked List
 - [ ] Two Pointers
 - [ ] Sliding Window
 - [ ] Bit Manipulation
-- so lets start with topic. Explain me the concepts in deep stress and list out top 20 Interview question as DSA
+  Prompt: so lets start with topic. Explain me the concepts in deep stress and list out top 20 Interview question as DSA
