@@ -71,12 +71,14 @@ case where it can be used
 ### Level: Advanced (Mathematical Strategy)
 
 - [x] **14. Segmented_Sieve:** Find primes in a range $[L, R]$ where $R$ is very large ($10^{12}$) but $R-L$ is small.
-- [ ] **15. Nth_Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
-- [ ] **16. Chinese Remainder Theorem:** Solving a system of simultaneous congruences.
-- [ ] **17. Common Divisors of Two Numbers:** Find the count of numbers that divide both $A$ and $B$.
-- [ ] **18. Power Set / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
-- [ ] **19. Pigeonhole Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
-- [ ] **20. Catalan Numbers:** Used in counting BSTs or valid bracket sequences.
+- [x] **15. Nth_Fibonacci (Log N):** Use Matrix Exponentiation to find huge Fibonacci numbers.
+- [ ] **16. Chinese_Remainder_Theorem:** Solving a system of simultaneous congruences.
+- [x] **17. Common_Divisors_of_Two_Numbers:** Find the count of numbers that divide both $A$ and $B$.
+- [x] **18. Power_Set_Bits / Subsets:** Use Bit Manipulation to generate all $2^N$ subsets (Math meets Bits).
+- [x] **19. Pigeonhole_Principle Problems:** E.g., "Find a subarray whose sum is divisible by $N$."
+- [ ] **20. Catalan Numbers:** Used in counting BSTs or valid bracket sequences. //To be covered in BST.
 - [ ] **21. Lucas Theorem:** Calculating $^nC_r \% p$ when $p$ is a small prime.
+
+20. Sum of Divisors or perhaps the Inclusion-Exclusion Principle?
 
 ---
