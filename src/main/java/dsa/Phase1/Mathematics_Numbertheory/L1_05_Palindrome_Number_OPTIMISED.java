@@ -44,7 +44,7 @@ In the previous method, we reversed the entire number. But mathematically, if a 
 A. Handling Odd Length Numbers
 If $x = 12321$, at the end of the loop:
 * x will be 12
-* reversedHalf will be 123. The middle digit (3) doesn't matter for the palindrome property. By doing reversedHalf / 10, we get rid of that middle digit and compare 12 == 12.
+* reversedHalf will be 123. The middle digit (3) doesn't matter for the palindrome property. By doing reversedHalf / 10, we get rid of that middle digit and oops.compare 12 == 12.
 B. The Termination Logic
 The condition while (x > reversedHalf) is brilliant because it works regardless of the number's length. As digits move from x to reversedHalf, they eventually "cross" in the middle.
 C. Memory Efficiency

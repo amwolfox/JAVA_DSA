@@ -96,7 +96,7 @@ We take the number 1 (binary 001) and shift it to the left $j$ times.
 The result of (1 << 2) is 100. This is our Mask. It has a 1 only at the position we care about.
 
 3. Step 2: The Bitwise AND &
-Now we compare our number $i$ (110) with our mask (100) using the AND gate. An AND gate only returns 1 if bothbits are 1.
+Now we oops.compare our number $i$ (110) with our mask (100) using the AND gate. An AND gate only returns 1 if bothbits are 1.
 Plaintext
 
     1 1 0  (i = 6)
