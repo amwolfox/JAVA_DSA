@@ -49,14 +49,14 @@ I have categorized these by "Stress Level" so you can build your intuition.
 
 ### Level: Foundational (The Basics)
 
-- [ ] **1. Binary_Search_Implementation:** Iterative vs Recursive (and why Iterative is usually better for memory).
-- [ ] **2. Lower Bound / Upper Bound:** Find the first or last occurrence of $X$ in a sorted array with duplicates.
+- [x] **1. Binary_Search_Implementation:** Iterative vs Recursive (and why Iterative is usually better for memory).
+- [x] **2. Lower_Bound_Upper_Bound:** Find the first or last occurrence of $X$ in a sorted array with duplicates.
 - [ ] **3. Search in a 2D Matrix:** Treating a sorted 2D matrix as a long 1D sorted array.
 
 ### Level: The "Twist" (Rotated & Infinite)
 
-- [ ] **4. Search in Rotated Sorted Array:** The array was sorted but then shifted (e.g., `[4,5,6,7,0,1,2]`).
-- [ ] **5. Find Minimum in Rotated Sorted Array:** Find the "pivot" point where the rotation happened.
+- [x] **4. Search_in_Rotated_Sorted_Array:** The array was sorted but then shifted (e.g., `[4,5,6,7,0,1,2]`).
+- [ ] **5. Find_Minimum_in_Rotated_Sorted_Array:** Find the "pivot" point where the rotation happened.
 - [ ] **6. Search in an Infinite Array:** You don't know the `high` index. How do you find it?
 - [ ] **7. Find Peak Element:** In an unsorted array, find an element that is greater than its neighbors ($O(\log n)$).
 
