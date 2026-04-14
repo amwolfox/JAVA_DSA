@@ -40,8 +40,8 @@ overshoot the target, then Binary Search back within that range.
 
 ---
 Prompt:
-EXPLAIN THIS IN DEEP STRESS AND SOLUTION with comments TOO AND SOME LEETCODE LINK TO PRACTISE, and also explain the use
-case where it can be used
+EXPLAIN THIS IN DEEP STRESS AND SOLUTION in java with comments and main TOO AND SOME LEETCODE LINK TO PRACTISE, and also
+explain the use case where it can be used
 
 ## Top 20 Searching Interview Questions (The Roadmap)
 
@@ -56,14 +56,14 @@ I have categorized these by "Stress Level" so you can build your intuition.
 ### Level: The "Twist" (Rotated & Infinite)
 
 - [x] **4. Search_in_Rotated_Sorted_Array:** The array was sorted but then shifted (e.g., `[4,5,6,7,0,1,2]`).
-- [ ] **5. Find_Minimum_in_Rotated_Sorted_Array:** Find the "pivot" point where the rotation happened.
-- [ ] **6. Search in an Infinite Array:** You don't know the `high` index. How do you find it?
-- [ ] **7. Find Peak Element:** In an unsorted array, find an element that is greater than its neighbors ($O(\log n)$).
+- [x] **5. Find_Minimum_in_Rotated_Sorted_Array:** Find the "pivot" point where the rotation happened.
+- [x] **6. Search_in_an_Infinite_Array:** You don't know the `high` index. How do you find it?
+- [x] **7. Find_Peak_Element:** In an unsorted array, find an element that is greater than its neighbors ($O(\log n)$).
 
 ### Level: Binary Search on Answers (Mathematical)
 
-- [ ] **8. Square Root (Integral):** (We covered this—finding $\lfloor\sqrt{x}\rfloor$).
-- [ ] **9. Capacity to Ship Packages:** Find the minimum capacity to ship all packages within $D$ days.
+- [x] **8. Square Root (Integral):** (We covered this—finding $\lfloor\sqrt{x}\rfloor$).
+- [ ] **9. Capacity_to_Ship_Packages:** Find the minimum capacity to ship all packages within $D$ days.
 - [ ] **10. Koko Eating Bananas:** Find the minimum speed $K$ to finish all bananas within $H$ hours.
 - [ ] **11. Aggressive Cows:** Maximize the minimum distance between cows in stalls.
 - [ ] **12. Allocate Minimum Number of Pages:** A classic "Hard" problem about dividing work among students.
