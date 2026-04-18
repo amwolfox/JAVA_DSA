@@ -1,9 +1,10 @@
 package dsa.Phase1.Searching;
 
 public class L3_08_Square_Root_Integral {
+
     public static void main(String[] args) {
         L3_08_Square_Root_Integral sol = new L3_08_Square_Root_Integral();
-        System.out.println(sol.mySqrt(8));  // Output: 2
+        System.out.println(sol.mySqrt(8)); // Output: 2
         System.out.println(sol.mySqrt(16)); // Output: 4
     }
 
@@ -15,7 +16,9 @@ public class L3_08_Square_Root_Integral {
         // 1. BASE CASES
         if (x == 0 || x == 1) return x;
 
-        int low = 1, high = x, ans = 0;
+        int low = 1,
+            high = x,
+            ans = 0;
 
         while (low <= high) {
             // Use (low + (high - low) / 2) to prevent (low + high) overflow
@@ -25,7 +28,7 @@ public class L3_08_Square_Root_Integral {
             // Comparing 'mid * mid <= x' can overflow an 'int'.
             // Deep Stress Trick: Use 'mid <= x / mid' instead.
             if (mid <= x / mid) {
-                ans = mid;    // 'mid' is a potential floor
+                ans = mid; // 'mid' is a potential floor
                 low = mid + 1; // Try to find a larger value
             } else {
                 high = mid - 1; // 'mid' is too large
