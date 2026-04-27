@@ -64,7 +64,7 @@ I have categorized these by "Stress Level" so you can build your intuition.
 
 - [x] **8. Square Root (Integral):** (We covered this—finding $\lfloor\sqrt{x}\rfloor$).
 - [x] **9. Capacity_to_Ship_Packages:** Find the minimum capacity to ship all packages within $D$ days.
-- [ ] **10. Koko Eating Bananas:** Find the minimum speed $K$ to finish all bananas within $H$ hours.
+- [ ] **10. Koko_Eating_Bananas:** Find the minimum speed $K$ to finish all bananas within $H$ hours.
 - [ ] **11. Aggressive Cows:** Maximize the minimum distance between cows in stalls.
 - [ ] **12. Allocate Minimum Number of Pages:** A classic "Hard" problem about dividing work among students.
 
