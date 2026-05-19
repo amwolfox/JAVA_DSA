@@ -38,7 +38,7 @@ during a technical discussion or while coding.
 
 ## 4. Handling Errors & Rejections
 
-In async programming, if you don't catch errors, they disappear. Use these "Safety Nets":
+In asynchronous_programming programming, if you don't catch errors, they disappear. Use these "Safety Nets":
 
 * **`exceptionally(ex -> ...)`**: The **Fallback**. If it fails, return a default value (e.g., a "Guest User" if the DB
   is down).

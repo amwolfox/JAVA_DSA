@@ -12,14 +12,17 @@ public class L1_01_Primality_Test {
         // 1. BASE CASE ELIMINATION (O(1))
         // Numbers <= 1 are not prime by definition.
         // 2 and 3 are the only primes that don't follow the 6k ± 1 pattern.
-        if (n <= 1) return false;
-        if (n <= 3) return true;
+        if (n <= 1)
+            return false;
+        if (n <= 3)
+            return true;
 
         // 2. THE "TWO-THIRDS" RULE (O(1))
         // By checking divisibility by 2 and 3 upfront, we instantly
         // eliminate ~66.6% of all integers (all evens and multiples of 3).
         // This allows our main loop to "jump" over these non-candidates.
-        if (n % 2 == 0 || n % 3 == 0) return false;
+        if (n % 2 == 0 || n % 3 == 0)
+            return false;
 
         // 3. THE SQUARE ROOT PROPERTY (O(√N))
         // Mathematical Fact: If 'n' has a divisor 'd', then at least one
@@ -39,7 +42,8 @@ public class L1_01_Primality_Test {
             }
         }
 
-        // 5. If no divisors were found up to √n, 'n' is mathematically guaranteed to be prime.
+        // 5. If no divisors were found up to √n, 'n' is mathematically guaranteed to be
+        // prime.
         return true;
     }
 
@@ -51,7 +55,10 @@ public class L1_01_Primality_Test {
     }
 }
 /*
-LeetCode 204: Count Primes (This introduces the Sieve, but try the O(sqrt n) approach first to see why it fails for large ranges!).
-LeetCode 2523: Closest Prime Numbers in Range (Requires efficient primality checks).
-LeetCode 762: Prime Number of Set Bits in Binary Representation (A mix of Bit Manipulation and Primality).
+ * LeetCode 204: Count Primes (This introduces the Sieve, but try the O(sqrt n)
+ * approach first to see why it fails for large ranges!).
+ * LeetCode 2523: Closest Prime Numbers in Range (Requires efficient primality
+ * checks).
+ * LeetCode 762: Prime Number of Set Bits in Binary Representation (A mix of Bit
+ * Manipulation and Primality).
  */

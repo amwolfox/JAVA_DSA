@@ -1,9 +1,7 @@
-package async.Java8_CompletableFuture;
+package asynchronous_programming.Java8_CompletableFuture;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class A06_MutipleAsync {
 

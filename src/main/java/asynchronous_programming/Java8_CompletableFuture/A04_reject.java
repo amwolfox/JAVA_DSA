@@ -1,4 +1,4 @@
-package async.Java8_CompletableFuture;
+package asynchronous_programming.Java8_CompletableFuture;
 
 import java.util.concurrent.CompletableFuture;
 
