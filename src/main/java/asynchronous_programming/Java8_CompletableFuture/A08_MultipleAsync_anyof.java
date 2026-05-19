@@ -49,47 +49,6 @@ The result of the `anyOf` future is the result of whichever task "crossed the fi
 In high-performance systems (like high-frequency trading or a banking gateway), you might ask three different "Exchange Rate" services for a price. You don't care which one answers, you just want the **fastest** one.
 
 
-
-### 2. The Code Example
-
-```java
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.TimeUnit;
-
-public class AnyOfExample {
-
-    public static void main(String[] args) {
-        System.out.println("--- Racing for the fastest result ---");
-
-        // Service 1: Might be slow
-        CompletableFuture<String> serviceA = CompletableFuture.supplyAsync(() -> {
-            simulateDelay(3);
-            return "Result from Service A";
-        });
-
-        // Service 2: Might be fast
-        CompletableFuture<String> serviceB = CompletableFuture.supplyAsync(() -> {
-            simulateDelay(1);
-            return "Result from Service B";
-        });
-
-        // The Race
-        CompletableFuture<Object> fastest = CompletableFuture.anyOf(serviceA, serviceB);
-
-        // Handle the winner
-        fastest.thenAccept(result -> {
-            System.out.println("Winner: " + result);
-        }).join();
-    }
-
-    private static void simulateDelay(int sec) {
-        try { TimeUnit.SECONDS.sleep(sec); } catch (InterruptedException e) {}
-    }
-}
-```
-
----
-
 ### 3. Key Characteristics of `anyOf`
 
 * **Return Type:** It returns `CompletableFuture<Object>`. Since the input tasks might return different types (e.g., one returns a `String`, another an `Integer`), the result is generalized to the common denominator, `Object`. You may need to cast it later.
